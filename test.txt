@@ -1,0 +1,20 @@
+/* element css */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    
+    /* gradients! */
+    background: linear-gradient(180deg, #212529 5%, #261139 100%);
+    
+    /* ensure background doesn't repeat */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* class css */
