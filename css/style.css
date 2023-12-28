@@ -1,4 +1,9 @@
 /* element css */
+:root {
+    --spotify-green: hsl(141, 76%, 48%);
+    --main-gradient-dark1: hsl(210, 10%, 15%);
+    --main-gradient-dark2: hsl(272, 52%, 15%);
+}
 
 html {
     font-family: sans-serif, Arial;
@@ -10,7 +15,7 @@ body {
     margin: 0;
     
     /* gradient! */
-    background: linear-gradient(180deg, hsl(210, 10%, 15%) 5%, hsl(272, 52%, 15%) 100%);
+    background: linear-gradient(180deg, var(--main-gradient-dark1) 5%, var(--main-gradient-dark2) 100%);
     
     /* ensure background doesn't repeat */
     background-repeat: no-repeat;
@@ -20,6 +25,7 @@ body {
 /* all about links */
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
@@ -34,8 +40,24 @@ a:active {
     color: hsl(180, 100%, 40%);
 }
 
+
+/* class css */
 /* navigation bar */
-.nav-ul {
+.navbar-container {
+    background: black;
+    border: 0 black;
+    border-style: none none outset solid;
+    transition: border 0.2s linear;
+}
+
+.navbar-container:hover {
+    border: 5px var(--spotify-green);
+    border-style: none none outset solid;
+    transition: border 0.2s linear;
+}
+
+.navbar > ul {
+    /* flex display */
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -60,9 +82,4 @@ a:active {
 .logo:hover {
     clip-path: circle(100%);
     transition: all 0.75s ease;
-}
-
-/* class css */
-.top {
-    background-color: black;
 }
