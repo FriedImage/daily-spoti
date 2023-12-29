@@ -44,7 +44,7 @@ body {
     flex-direction: column;
 
     /* height of flex should be 100% of viewpoint height */
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 /* all about links */
@@ -83,7 +83,7 @@ nav > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding: 2vh;
+    padding: 2dvh;
 }
 
 footer > ul {
@@ -94,7 +94,7 @@ footer > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding: 2vh;
+    padding: 2dvh;
 }
 
 /* push footer to the bottom */
@@ -166,7 +166,7 @@ body > div:last-of-type {
 }
 
 .li-item:not(:nth-of-type(1)) {
-    padding-left: 2vw;
+    padding-left: 2dvw;
 }
 
 .logo {
@@ -198,3 +198,102 @@ body > div:last-of-type {
     font-style: italic;
 }
 
+@media (max-width: 5000px) {
+    .container {
+        font-size: 2.5rem;
+    } 
+    .logo {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 4000px) {
+    .container {
+        font-size: 2rem;
+    }
+    .logo {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+@media (max-width: 3000px) {
+    .container {
+        font-size: 1.8rem;
+    }
+    .logo {
+        width: 115.2px;
+        height: 115.2px;
+    }
+}
+
+@media (max-width: 2000px) {
+    .container {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 96px;
+        height: 96px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        font-size: 1.2rem;
+    }
+    .logo {
+        width: 76.8px;
+        height: 76.8px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 630px) {
+    .container {
+        font-size: 0.7rem;
+    }
+    .logo {
+        width: 44.8px;
+        height: 44.8px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        font-size: 0.5rem;
+    }
+    .logo {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        font-size: 0.4rem;
+    }
+    .logo {
+        width: 25.6px;
+        height: 25.6px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        font-size: 0.3rem;
+    }
+    .logo {
+        width: 19.2px;
+        height: 19.2px;
+    }
+}
