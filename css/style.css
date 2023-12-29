@@ -42,6 +42,9 @@ body {
     margin: 0;
     padding: 0;
     flex-direction: column;
+
+    /* height of flex should be 100% of viewpoint height */
+    min-height: 100vh;
 }
 
 /* all about links */
@@ -93,6 +96,12 @@ footer > ul {
     overflow: hidden;
     padding: 2vh;
 }
+
+/* push footer to the bottom */
+body > div:last-of-type {
+    margin-top: auto;
+}
+
 
 /* class css */
 
@@ -189,7 +198,3 @@ footer > ul {
     font-style: italic;
 }
 
-/* converts whole page into a flex display */
-body > div:last-of-type {
-    margin-top: auto;
-}
