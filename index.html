@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +7,71 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="main-container">
-        <div class="navbar-container">
-            <nav class="navbar">
+    <header>
+        <div class="container navbar">
+            <nav>
                 <ul>
                     <img class="logo" src="./images/daily-spoti.png" alt="Site Logo">
                     <li class="li-item"><a class="active" href="#">home</a></li>
-                    <li class="li-item"><a href="#">login</a></li>
+                    <li class="li-item"><a href="#">log-in</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="grid-container">
-            <main>
-                <article class="item">
-                    <h1>daily-spoti</h1>
-                </article>
-            </main>
-        </div>
-        <div class="bottom">
-            
-        </div>
+    </header>
+    <div class="container content">
+        <main class="grid-content">
+            <div class="gc-item info">
+                <h1>daily-spoti</h1>
+                <p>track <b>your</b> <em><u>most played</u></em> <span class="spotify-themed"><b>Spotify</b></span><sup>&reg;</sup> songs of each day<span class="big-excl-mark">!</span></p>
+                <p><sub>working as of <strong>28/12/23</strong></sub></p>
+            </div>
+            <article class="gc-item steps">
+                <h2 aria-label="Usage steps">It's simple<span class="bigger-excl-mark">!</span></h2>
+                <section>
+                    <ol>
+                        <li><strong><a href="#">Log-in</a></strong> using your <span class="spotify-themed"><b>Spotify</b></span><sup>&reg;</sup> account</li>
+                        <li>Step Sample Text</li>
+                        <li>Done<span class="big-excl-mark">!</span></li>
+                    </ol>
+                </section>
+            </article>
+            <article class="gc-item updates">
+                <h2 aria-label="Website updates">Update Log</h2>
+                <p>This is an update log!</p>
+                <section>
+                    <h3>Change 1</h3>
+                </section>
+            </article>
+            <article class="gc-item projects">
+                <h2>My Projects!</h2>
+                <p>Here is a list of my projects in GitHub!</p>
+                <section>
+                    <h3>Project 1</h3>
+                </section>
+            </article>
+            <article class="gc-item sidebar">
+                <h2>Your top songs!</h2>
+                <p>Didn't login yet!</p>
+            </article>
+        </main>
+    </div>
+    <div class="container footer">
+        <footer>
+            <ul>
+                <li>
+                    &copy; George Ntolias 2023
+                </li>
+                <li>
+                    <a href="mailto:ntoliasg@gmail.com" aria-label="e-mail">📧</a>
+                </li>
+                <li>
+                    <a href="https://github.com/friedImage/" target="_blank" aria-label="GitHub profile">🐙</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/george-ntolias/" target="_blank" aria-label="GitHub profile">💼</a>
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
