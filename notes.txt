@@ -1,0 +1,4 @@
+npm install express cors mysql2
+
+cors -> package
+mysql2 -> for mysql
