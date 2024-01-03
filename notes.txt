@@ -2,3 +2,11 @@ npm install express cors mysql2
 
 cors -> package
 mysql2 -> for mysql
+
+index.js inside server because main entry point will be index.js
+
+express -> instance of framework
+
+installed nodemon for automatic server changes
+
+**TODO: configure database
